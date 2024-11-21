@@ -9,3 +9,4 @@ export {ClinetsComments} from './clinets-comments'
 export {BgImgSecion} from './bg-img-secion'
 export {Popular} from './popular'
 export {SecionCenter} from "./secion-center"
+export {Book} from './book'

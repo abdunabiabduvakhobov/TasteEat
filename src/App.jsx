@@ -1,5 +1,5 @@
 
-import { BgImgSecion, ClinetsComments, ContactsSection, Header, MenuSection, Popular, Secion, SecionCenter } from './components'
+import { BgImgSecion, Book, ClinetsComments, ContactsSection, Header, MenuSection, Popular, Secion, SecionCenter } from './components'
 import { SecionOffers } from './components/secion-offers'
 import { Offers } from './components/secion-offers/offers'
 
@@ -18,6 +18,7 @@ function App() {
     <Offers/>
     <Popular/>
     <SecionCenter/>
+    <Book/>
     </>
   )
 }
