@@ -4,7 +4,7 @@ export const Book = () => {
   return (
     <section className="h-screen bg-[url('../book.png')] bg-no-repeat pt-[80px] bg-cover bg-center">
       <ContainerWrapper>
-        <div className="backdrop-hue-rotate-60 bg-green/70 w-[90%] sm:w-[920px] sm:h-[607px] h-[690px] mx-auto sm:ml-[300px] p-4 sm:p-0">
+        <div className="backdrop-hue-rotate-60 bg-green/70 w-[90%] sm:w-[920px] sm:h-[607px] h-[650px] mx-auto sm:ml-[300px] p-4 sm:p-0">
             <div className="text-white pt-[50px] sm:pt-[100px]"> 
                 <p className="text-[12px] sm:text-[15px] leading-[22.5px] tracking-[3px] font-normal text-center">reservation</p>
                 <p className="text-[30px] sm:text-[40px] font-normal leading-[56px] tracking-[0.2px] text-center">Book Your Table</p>
