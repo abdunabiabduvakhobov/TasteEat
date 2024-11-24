@@ -3,7 +3,7 @@ import { ContainerWrapper } from "../container-wrapper"
 
 export const SecionNews = () => {
   return (
-   <section className="w-full h-screen">
+   <section className=" w-full ">
   <ContainerWrapper>
        <div>
         <div className="xl:flex flex-col gap-[20px] pt-[70px] ">
