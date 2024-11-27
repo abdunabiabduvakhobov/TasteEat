@@ -8,7 +8,7 @@ export const News = () => {
     <section className="pt-[50px] w-full sm:h-[60pc]">
       <ContainerWrapper>
         <div className="flex flex-col sm:flex-row gap-[50px]">
-          
+                 
           <div className="card w-full sm:w-[840px] group cursor-pointer border-2 mb-8 sm:mb-0">
             <div className="relative">
               <img className="w-full" src={pami} alt="" />
@@ -56,3 +56,17 @@ export const News = () => {
     </section>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

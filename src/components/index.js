@@ -11,3 +11,4 @@ export {Popular} from './popular'
 export {SecionCenter} from "./secion-center"
 export {Book} from './book'
 export {SecionNews} from './secion-news'
+export {SecionEnd} from './secion-end'
