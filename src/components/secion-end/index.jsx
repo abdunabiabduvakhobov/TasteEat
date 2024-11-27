@@ -7,7 +7,7 @@ import e from '../../assets/icons/piter.svg';
 
 export const SecionEnd = () => {
   return (
-   <section className="bg-primary-blue w-full  h-screen xl:pt-[100px] pt-[30px]">
+   <section className="bg-primary-blue w-full   xl:pt-[100px] pt-[30px]">
     <ContainerWrapper>
         <div>
             <div className="">
@@ -35,11 +35,11 @@ export const SecionEnd = () => {
                 <p className="xl:pl-0 pl-[130px]  text-amber-800">+123 456 789</p>
                 <p className="text-[19px] font-normal leading-[30px] xl:pl-0 pl-[110px] tracking-[0.2px] text-amber-800 sm:text-[15px] sm:w-full">josefin@mail.com</p>
                 </div>
-                 <div className="flex pl-[40px] pt-[40px]">
+                 <div className="flex pl-[40px] xl:w-[600px] w-[400px] xl:pt-[0px] pt-[20px]">
                  <input className="border-2 xl:w-[340px] xl:h-[70px] w-[200px] bg-primary-blue pl-[10px]" type="text" placeholder="email" />
                  <button className="bg-white xl:w-[190px] h-[70px] w-[100px]">Subscribe</button>
                  </div>
-                 <div className="flex xl:pl-0 pl-[40px] xl:pt-0 pt-[20px]">
+                 <div className="flex xl:pl-0 pl-[60px] xl:pt-0 pt-[20px]">
                     <div >
                     <p className="text-[20px] font-normal leading-[30px] tracking-[0.2px] text-[#E1B168]">Mon – Fri:</p>
                      <p className="text-[20px] font-normal leading-[30px] tracking-[0.2px] text-[#E1B168]">Sat:</p>
