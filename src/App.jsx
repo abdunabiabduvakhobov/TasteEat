@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { BgImgSecion, Book, ClinetsComments, ContactsSection, Header, MenuSection, Popular, Secion, SecionCenter, SecionEnd } from './components'
+import { BgImgSecion, Book, ClinetsComments, ContactsSection, Footer, Header, MenuSection, Popular, Secion, SecionCenter, SecionEnd } from './components'
 import { SecionNews } from './components/secion-news'
 import { News } from './components/secion-news/news'
 import { SecionOffers } from './components/secion-offers'
@@ -32,6 +32,7 @@ function App() {
     <News/>
     <Book/>
     <SecionEnd/>
+     <Footer/>
     </>
   )
 }
