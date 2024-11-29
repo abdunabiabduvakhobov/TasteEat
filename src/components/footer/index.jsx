@@ -2,10 +2,10 @@ import { ContainerWrapper } from "../container-wrapper";
 
 export const Footer = () => {
   return (
-    <footer className="bg-primary-blue w-full pt-[40px]">
+    <footer className="bg-primary-blue w-full pt-[40px] ">
       <ContainerWrapper>
         <hr className="" />
-        <div className="flex flex-col justify-between xl:ml-[0px] ml-[30px] md:flex-row pt-[20px]">
+        <div className="flex flex-col justify-between xl:ml-[0px] ml-[30px] md:flex-row pt-[40px] pb-[20px]">
           
           <nav>
             <ul className="flex flex-col md:flex-row  gap-[10px] md:gap-[20px] mb-[20px] md:mb-0">
@@ -37,9 +37,7 @@ export const Footer = () => {
             </ol>
           </div>
         </div>
-        <div className="pt-[10px]">
-          <hr />
-        </div>
+        
       </ContainerWrapper>
     </footer>
   );
