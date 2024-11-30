@@ -7,7 +7,7 @@ import { MenuDish } from "./menu-dish";
 
 export const MenuSection = () => {
   return (
-    <section className="bg-white pt-[119px]    ">
+    <section className="bg-white  pt-[119px]    ">
        <ContainerWrapper>
         <div className="xl:flex    gap-44">
          <div className="flex flex-col gap-8 xl:ml-0 ml-4">
@@ -19,7 +19,7 @@ export const MenuSection = () => {
              <button className="font-normal text-[17px] leading-[33px]    hover:bg-[#724f1b] xl:py-5 xl:px-[57px]  py-[20px] px-[40px]  hover:text-white border-2 border-[#724f1b] text-[#724f1b] ">See all dishes</button>
              </div>
          </div>
-         <div className="mt-11  ">
+         <div className="mt-11 w-full">
            {
              menu.map((el,i)=>{
                 return (
